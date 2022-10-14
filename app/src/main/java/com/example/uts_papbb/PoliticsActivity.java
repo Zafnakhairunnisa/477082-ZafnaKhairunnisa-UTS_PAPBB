@@ -20,8 +20,8 @@ public class PoliticsActivity extends AppCompatActivity {
 
         int usia = getIntent().getIntExtra(EXTRA_USIA, 0);
 
-        Toast toast = Toast.makeText(getApplicationContext(), Integer.toString(usia), Toast.LENGTH_SHORT);
-        toast.show();
+//        Toast toast = Toast.makeText(getApplicationContext(), Integer.toString(usia), Toast.LENGTH_SHORT);
+//        toast.show();
 
         recyclerView = findViewById(R.id.rv_politics);
 
