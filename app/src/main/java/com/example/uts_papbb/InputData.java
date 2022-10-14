@@ -47,14 +47,14 @@ public class InputData extends AppCompatActivity {
                 }
                 else if (adapter.getItem(i).equals("Technology")){
                     Intent intent = new Intent(InputData.this, TechnologyActivity.class);
-                    intent.putExtra(SportActivity.EXTRA_USIA, usia);
+                    intent.putExtra(TechnologyActivity.EXTRA_USIA, usia);
                     InputData.this.startActivity(intent);
 //                    Toast toast = Toast.makeText(getApplicationContext(), "DEBUG1: " +Integer.toString(usia), Toast.LENGTH_SHORT);
 //                    toast.show();
                 }
                 else if (adapter.getItem(i).equals("Politics")){
                     Intent intent = new Intent(InputData.this, PoliticsActivity.class);
-                    intent.putExtra(SportActivity.EXTRA_USIA, usia);
+                    intent.putExtra(PoliticsActivity.EXTRA_USIA, usia);
                     InputData.this.startActivity(intent);
                 }
 
